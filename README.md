@@ -18,8 +18,11 @@ GitHub Image Hosting: Leverage GitHub's reliable platform for hosting your image
 Before you begin, ensure you have the following:
 
 **Python installed on your system.**
+
 **Pillow library for Python (pip install Pillow).**
+
 **qrcode library for Python (pip install qrcode[pil]).**
+
 **A GitHub account for hosting images.**
 
 
@@ -31,6 +34,7 @@ Clone the Repository:
 
 
 git clone [[repository URL](https://github.com/Gyimah3/QR_CODE)]
+
 cd [Gyimah3]
 
 ## Install Dependencies:
@@ -48,13 +52,13 @@ Make sure you have Python installed and then set up a virtual environment:
 
 ## Running the Scripts
 **Adding Text to Images:**
-- Run the demo this (being at the repository root):
+- Run this (being at the repository root):
 
         add_image.py
 
 ## Generating QR Codes:
 After uploading the modified images to GitHub, edit QR_CODE.py with the URLs of these images. Then run:
-- Run the this (being at the repository root):
+- Run this (being at the repository root):
 
         QR_CODE.py
 
