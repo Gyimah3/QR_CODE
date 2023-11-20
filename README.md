@@ -14,17 +14,6 @@ GitHub Image Hosting: Leverage GitHub's reliable platform for hosting your image
 
 **QR Code Generator Script (QR_CODE.py)**: After hosting your images on GitHub, this script generates QR codes for each image URL. These QR codes can be scanned to view the images, making it extremely convenient to share and access them.
 
-## Prerequisites
-Before you begin, ensure you have the following:
-
-**Python installed on your system.**
-
-**Pillow library for Python (pip install Pillow).**
-
-**qrcode library for Python (pip install qrcode[pil]).**
-
-**A GitHub account for hosting images.**
-
 
 # Usage
 ## Setting Up
@@ -49,6 +38,18 @@ Make sure you have Python installed and then set up a virtual environment:
   - Linux & MacOs:
         
         python3 -m venv venv; source venv/bin/activate
+
+## Prerequisites
+Before you begin, ensure you have the following:
+
+**Python installed on your system.**
+
+**Pillow library for Python (pip install Pillow).**
+
+**qrcode library for Python (pip install qrcode[pil]).**
+
+**A GitHub account for hosting images.**
+
 
 ## Running the Scripts
 **Adding Text to Images:**
